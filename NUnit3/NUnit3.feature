@@ -1,4 +1,5 @@
-﻿@Feature
+﻿@Ignore
+@Feature
 Feature: NUnit3
 	In order to avoid silly mistakes
 	As a math idiot
