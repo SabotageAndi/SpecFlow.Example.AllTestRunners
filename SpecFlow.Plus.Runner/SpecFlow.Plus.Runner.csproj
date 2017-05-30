@@ -31,8 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SpecRun.SpecFlowPlugin, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SpecRun.SpecFlow.2-1-0.1.6.0-rc002\lib\net45\SpecRun.SpecFlowPlugin.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\SpecRun.SpecFlow.2-1-0.1.6.0-rc006\lib\net45\SpecRun.SpecFlowPlugin.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,8 +46,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="TechTalk.SpecRun, Version=1.6.0.0, Culture=neutral, PublicKeyToken=d0fc5cc18b3b389b, processorArchitecture=MSIL">
-      <HintPath>..\packages\SpecRun.SpecFlow.2-1-0.1.6.0-rc002\lib\net45\TechTalk.SpecRun.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\SpecRun.SpecFlow.2-1-0.1.6.0-rc006\lib\net45\TechTalk.SpecRun.dll</HintPath>
+    </Reference>
+    <Reference Include="TechTalk.SpecRun.Common, Version=1.6.0.0, Culture=neutral, PublicKeyToken=d0fc5cc18b3b389b, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpecRun.SpecFlow.2-1-0.1.6.0-rc006\lib\net45\TechTalk.SpecRun.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
