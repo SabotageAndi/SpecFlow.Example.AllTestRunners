@@ -28,17 +28,17 @@ namespace NUnit
 #line 1 "SpecFlowFeature1.feature"
 #line hidden
         
-        [NUnit.Framework.TestFixtureSetUpAttribute()]
+        [NUnit.Framework.OneTimeSetUpAttribute()]
         public virtual void FeatureSetup()
         {
-            testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
+            testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "NUnit", "\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
                     "f two numbers", ProgrammingLanguage.CSharp, new string[] {
                         "Feature"});
             testRunner.OnFeatureStart(featureInfo);
         }
         
-        [NUnit.Framework.TestFixtureTearDownAttribute()]
+        [NUnit.Framework.OneTimeTearDownAttribute()]
         public virtual void FeatureTearDown()
         {
             testRunner.OnFeatureEnd();
@@ -89,7 +89,7 @@ this.ScenarioSetup(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Scenario2")]
-        [NUnit.Framework.IgnoreAttribute()]
+        [NUnit.Framework.IgnoreAttribute("Ignored scenario")]
         [NUnit.Framework.CategoryAttribute("Tag1")]
         public virtual void Scenario2()
         {
@@ -113,3 +113,5 @@ this.ScenarioSetup(scenarioInfo);
 }
 #pragma warning restore
 #endregion
+
+
