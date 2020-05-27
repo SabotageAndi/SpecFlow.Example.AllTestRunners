@@ -11,8 +11,8 @@
     <PackageReference Include="MSTest.TestAdapter" Version="2.1.0" />
     <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
-    <PackageReference Include="SpecFlow.MsTest" Version="3.1.97" />
-    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.1.97" />
+    <PackageReference Include="SpecFlow.MsTest" Version="3.3.24-beta-g766e85cf4c" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.3.24-beta-g766e85cf4c" />
   </ItemGroup>
 
 </Project>

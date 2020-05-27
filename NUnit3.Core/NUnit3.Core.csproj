@@ -11,8 +11,8 @@
     <PackageReference Include="nunit" Version="3.12.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
-    <PackageReference Include="SpecFlow.NUnit" Version="3.1.97" />
-    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.1.97" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.3.24-beta-g766e85cf4c" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.3.24-beta-g766e85cf4c" />
   </ItemGroup>
 
 
