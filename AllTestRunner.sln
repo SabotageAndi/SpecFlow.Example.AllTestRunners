@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlow.Plus.Runner", "SpecFlow.Plus.Runner\SpecFlow.Plus.Runner.csproj", "{ABEDF473-6D43-4DC9-9F7E-4AB31C9B1958}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit", "NUnit\NUnit.csproj", "{2193E2AC-D9FB-4529-934B-DC1186730A0A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit3", "NUnit3\NUnit3.csproj", "{A368AFA9-9417-497A-ABA5-A3B18FB46BD4}"
 EndProject
@@ -18,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest", "MSTest\MSTest.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnit2", "XUnit2\XUnit2.csproj", "{A2853D9D-C2BE-4670-A9E8-21522F9D9E1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlow.Plus.Runner.NewCSProjX", "SpecFlow.Plus.Runner.CSProj\SpecFlow.Plus.Runner.NewCSProjX.csproj", "{C00EBEE2-955D-4DA2-AE3A-5B020821254C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFlow.Plus.Runner.NewCSProjX", "SpecFlow.Plus.Runner.CSProj\SpecFlow.Plus.Runner.NewCSProjX.csproj", "{C00EBEE2-955D-4DA2-AE3A-5B020821254C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,10 +28,6 @@ Global
 		{ABEDF473-6D43-4DC9-9F7E-4AB31C9B1958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABEDF473-6D43-4DC9-9F7E-4AB31C9B1958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABEDF473-6D43-4DC9-9F7E-4AB31C9B1958}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2193E2AC-D9FB-4529-934B-DC1186730A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2193E2AC-D9FB-4529-934B-DC1186730A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2193E2AC-D9FB-4529-934B-DC1186730A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2193E2AC-D9FB-4529-934B-DC1186730A0A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A368AFA9-9417-497A-ABA5-A3B18FB46BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A368AFA9-9417-497A-ABA5-A3B18FB46BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A368AFA9-9417-497A-ABA5-A3B18FB46BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
